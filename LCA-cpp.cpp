@@ -1,16 +1,13 @@
 // C++ Program for Lowest Common Ancestor in a Binary Tree
 // A O(n) solution to find LCA of two given values n1 and n2
+
 #include <iostream>
 #include <vector>
+#include "LCA-cpp.h"
 
 using namespace std;
 
 // A Binary Tree node
-struct Node
-{
-    int key;
-    struct Node* left, * right;
-};
 
 // Utility function creates a new binary tree node with given key
 Node* newNode(int k)
